@@ -1,0 +1,18 @@
+[pack]
+	buildbitmaps = false
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	logallrefupdates = true
+	bare = false
+[remote "origin"]
+	url = http://SCDSAHV@svinfulabbk.dassault-avion.fr:7990/scm/etatpilote/etatpilote.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[user]
+	name = scdsahv
+	email = herve.girod@dassault-aviation.com
+[http]
+	postBuffer = 524288000
