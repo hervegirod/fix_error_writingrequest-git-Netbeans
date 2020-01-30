@@ -6,6 +6,7 @@ You encounter an "Error writing request body to server" when trying to push a gi
 
 # How to fix it
 You have to increase the http post buffer size in the "Open Configuration" (on .git/config) by adding these lines:
+
   [http]
 	postBuffer = 524288000
 
