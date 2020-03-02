@@ -11,7 +11,8 @@ You have to increase the http post buffer size in the "Open Configuration" (on .
 	postBuffer = 524288000
 
 # How to fix it on git prompt
-Add the associated globale configuration:
+Add the associated global configuration:
+
   git config --global http.postBuffer 524288000
 
 # Example
