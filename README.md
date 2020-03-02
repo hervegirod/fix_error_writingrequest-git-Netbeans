@@ -21,3 +21,5 @@ See the file
 # Reference
 see https://bz.apache.org/netbeans/show_bug.cgi?id=216957
 
+see https://stackoverflow.com/questions/6842687/the-remote-end-hung-up-unexpectedly-while-git-cloning
+
