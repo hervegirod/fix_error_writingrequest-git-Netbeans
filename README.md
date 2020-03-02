@@ -4,11 +4,15 @@ Explain how to fix the git dreaded "Error writing request body to server" in Net
 # Use case
 You encounter an "Error writing request body to server" when trying to push a git repository on Netbeans
 
-# How to fix it
+# How to fix it on Netbeans
 You have to increase the http post buffer size in the "Open Configuration" (on .git/config) by adding these lines:
 
   [http]
 	postBuffer = 524288000
+
+# How to fix it on git prompt
+Add the associated globale configuration:
+  git config --global http.postBuffer 524288000
 
 # Example
 See the file
