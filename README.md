@@ -7,13 +7,13 @@ You encounter an "Error writing request body to server" when trying to push a gi
 # How to fix it on Netbeans
 You have to increase the http post buffer size in the "Open Configuration" (on .git/config) by adding these lines:
 
-  [http]
+    [http]
 	postBuffer = 524288000
 
 # How to fix it on git prompt
 Add the associated global configuration:
 
-  git config --global http.postBuffer 524288000
+    git config --global http.postBuffer 524288000
 
 # Example
 See the file
